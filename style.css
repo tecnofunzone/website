@@ -1,0 +1,86 @@
+.navigation{
+    display: flex;
+}
+.navigation img{
+    height: 50px;
+}
+.navbar a{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    text-decoration: none;
+    
+}
+.navbar {
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 20px; /* add some space between items */
+}
+
+.model-image {
+    height: 500px;
+    position: absolute;
+    right: 0;
+  }
+  .model-image {
+    margin-left: auto;
+  }
+  button{
+    font-weight: 600;
+    margin:50px;
+    border-radius: 30px;
+    background-color: indianred;
+    color: white;
+    font-size: 25px;
+  }
+.card img{
+    height: 250px;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #007bff; /* blue border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px; /* adjust the width as needed */
+}
+
+.card-img-top {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #666;
+}
+
+.text-muted {
+    color: #999;
+}
+.card-part{
+    display: flex;
+}
